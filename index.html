@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styl.css">
+    <title>Registr zvířat</title>
+</head>
+<body>
+    <header>
+        <h1>Registr zvířat</h1>
+    </header>
+    <div class="telo">
+        <div class="formular">
+            <h2 class="nadpisy">Nová registrace</h2>
+            <p>Jméno majitele: <input type="text" id="inputMajitel" placeholder="Jan Novák"></p>
+            <p>Druh zvířete: 
+                <select id="inputDruh">
+                    <option value="kočka">kočka</option>
+                    <option value="pes">pes</option>
+                    <option value="králík">králík</option>
+                </select>
+                Pohlaví zvířete: 
+                <select id="inputPohlavi">
+                    <option value="F">F</option>
+                    <option value="M">M</option>
+                </select>
+            </p>
+            <p>Jméno zvířete: <input type="text" id="inputJmeno" placeholder="Princezna"></p>
+            <p>Číslo čipu: <input type="text" id="inputCisloCipu" placeholder="123456" maxlength="6"></p>
+            <p><button id="potvrdit">Potvrdit</button></p>
+        </div>
+    
+        <div class="vypis">
+            <h2 class="nadpisy">Nejnovější registrace</h2>
+            <table id="tabulka">
+                <thead>
+                    <tr>
+                        <td>Jméno zvířete</td>
+                        <td>Druh</td>
+                        <td>Pohlaví</td>
+                        <td>Číslo čipu</td>
+                        <td>Majitel</td>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div id="storage">
+            <button id="zobrazeni">Zobrazit všechny záznamy</button>
+            <button id="skryt">Skrýt všechny záznamy</button>
+            <div id="vsechny-zaznamy"></div>
+        </div>
+
+    </div>
+
+
+    
+    <footer>
+        <p>Created by Helena Janouškovcová &#169; 2023</p>
+    </footer>
+
+    <script src="js/Zvire.js"></script>
+    <script src="js/Tabulka.js"></script>
+    <script src="js/Formular.js"></script>
+    <script src="js/obsluha.js"></script>
+
+
+</body>
+</html>

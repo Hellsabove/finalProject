@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color: #5CDB95;
+}
+
+header {
+    background-color: #5CDB95;
+    color: #05386B;
+    font-family: Candara;
+    height: 3em;
+    padding: 1em;
+}
+
+.telo {
+    margin: 2em;
+}
+
+.telo p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.telo table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 2rem;
+    border-color: #05386B;
+    background-color: #05386B;
+    color: #EDF5E1;
+    justify-content: center;
+}
+
+.formular {
+    margin-bottom: 2em;
+    background-color: #EDF5E1;
+    width: auto;
+    padding: 1em;
+    color: #05386B;
+    border-radius: 2rem;
+}
+
+.nadpisy {
+    font-family: Candara;
+}
+
+.vypis {
+    background-color: #EDF5E1;
+    width: auto;
+    padding: 1em;
+    color: #05386B;
+    margin-bottom: 2em;
+    border-radius: 2rem;
+}
+
+.vypis table {
+    border: black solid 0.05em;
+    border-collapse: collapse;
+}
+
+.vypis table thead {
+    font-weight: bold;
+}
+
+.vypis table td {
+    border: rgb(178, 169, 169) solid 0.05em;
+    padding: 0.5em;
+}
+
+#vsechny-zaznamy {
+    display: none;
+    margin: 0.5em;
+}
+
+
+footer {
+    background-color: #05386B;
+    color: #EDF5E1;
+    height: 3em;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
